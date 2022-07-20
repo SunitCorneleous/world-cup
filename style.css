@@ -47,4 +47,80 @@
   background-color: #dd0000;
   padding: 16px 25px;
   border-radius: 5px;
+
+  display: block;
+  width: 117px;
+}
+
+/* main section style */
+.container {
+  width: 1361px;
+  margin: 25px auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+.btn-group {
+  width: 300px;
+  height: 312px;
+  background-color: #161616;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+
+  text-align: center;
+}
+
+.btn-group .btn {
+  width: 152px;
+  margin: 15px;
+  font-weight: 700;
+}
+
+.container {
+}
+
+.secondary {
+  background-color: #fff;
+  color: #161616;
+}
+
+.transfer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+
+  margin: 0 30px;
+}
+
+.transfer-item {
+  width: 321px;
+  border: 1px solid rgb(149, 149, 149);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.transfer img {
+  width: 100%;
+}
+
+.item-info {
+  margin: 10px;
+}
+
+.transfer-badge {
+  border: 1px solid #000;
+  padding: 2px 3px;
+  width: 100px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.icon-group {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
